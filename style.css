@@ -1,0 +1,50 @@
+@media screen and (max-width: 576px) {
+  .Div1 {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .C {
+    padding-top: 70px;
+  }
+  .carousel-inner {
+    padding-top: 70px;
+  }
+  h1,
+  h2 {
+    font-size: 15px;
+  }
+}
+
+.carousel-item img {
+  height: 100%; /* Đảm bảo hình ảnh chiếm hết chiều cao */
+  object-fit: cover; /* Giữ tỉ lệ hình ảnh */
+}
+.carousel-indicators [data-bs-target] {
+  width: 50px; /* Độ dài của gạch ngang */
+  height: 5px; /* Độ dày của gạch ngang */
+
+  border-radius: 5px; /* Bo tròn nhẹ */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
+
+/* .B {
+  padding-top: 80px;
+} */
+.A {
+  padding: 100px;
+}
+/* .carousel-caption {
+  padding-top: 80px;
+} */
+.Div0 {
+  display: grid;
+  grid-template-rows: 15% 60% 20%;
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 20px; */
+}
+@media screen and (min-width: 1025px) {
+  .A {
+    padding-top: 150px;
+  }
+}
